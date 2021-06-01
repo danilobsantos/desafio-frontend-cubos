@@ -1,0 +1,132 @@
+.info-container {
+    background: #F2F2F2;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.info-container section header {
+    background: #E6E6E6;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-container section article {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.info-container section header h1 {
+    margin-left: 1.5%;
+    color: #116193;
+    font-size: 28px;
+}
+
+.info-container section header span {
+    opacity: 0.4;
+}
+
+.info-container section article img {
+    height: 100%;
+    width: 100%;
+}
+
+.info-container section article .info-content .synopsis {
+    margin: 4%;
+    opacity: 0.8;
+}
+
+.info-container section article .info-content .synopsis h2 {
+    color: #116193;
+    border-bottom: 2px solid #03ced5;
+    margin-bottom: 2%;
+    padding-bottom: 0.5%;
+}
+
+.info-container section article .info-content .synopsis span {
+    opacity: 0.8;
+}
+
+.info-container section article .info-content .information {
+    margin: 4%;
+    opacity: 0.8;
+}
+
+.info-container section article .info-content .information h2 {
+    color: #116193;
+    border-bottom: 2px solid #03ced5;
+    margin-bottom: 2%;
+    padding-bottom: 0.5%;
+}
+
+.info-container section article .info-content .information ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5%;
+}
+
+.info-container section article .info-content .information ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 9%;
+}
+
+.info-container section article .info-content .information ul li h2 {
+    color: #116193;
+    font-size: 22px;
+    border: none;
+}
+
+.info-container section article .info-content .information ul li span {
+    opacity: 0.8;
+}
+
+.info-container section article .info-content footer {
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    margin-bottom: 3%;
+}
+
+.info-container section article .info-content footer .info-genres {
+    text-align: left;
+    padding-left: 4%;
+    margin-top: 4%;
+}
+
+.info-container section article .info-content footer .info-genres span {
+    background: #FFF;
+    color: #03ced5;
+    border: 2px solid #03ced5;
+    border-radius: 25px;
+    padding: 4px 20px;
+    margin-right: 10px;
+}
+
+.info-container section article .info-content footer .popularity {
+    border: 4px solid #116193;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 25%;
+}
+
+.info-container section article .info-content footer .popularity span {
+    background: #116193;
+    border: 6px solid #03ced5;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    line-height: 75px;
+    text-align: center;
+    font-size: 35px;
+    color: #03ced5;
+}
+
+.trailer {
+    margin-bottom: 3%;
+    height: 550px;
+}
